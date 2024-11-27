@@ -3,5 +3,12 @@
   "baseBranches": ["main"],
   "extends": [
     "config:base"
+  ],
+  "labels": ["update", "renovate"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
   ]
 }
