@@ -11,7 +11,7 @@ USER node
 
 WORKDIR /home/node
 
-RUN git clone https://github.com/developersdigest/llm-answer-engine.git app && \
+RUN git clone https://github.com/akolk/llm-answer-engine-orig.git app && \
 cd app && \
 bun install
 
